@@ -1,0 +1,52 @@
+<linker>
+  <assembly fullname="SalvageKings.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SalvageKings.Game.ArtLibrary" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.ArtPickDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.BuildingDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.BuyerDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.CarDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.ChainItemDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.ChapterDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.ContentRoot" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.EventIndexDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.GeneratorDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.OrderTemplateDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.Content.SeasonDatabase" preserve="all" />
+    <type fullname="SalvageKings.Game.ItemView" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.ResourceProviders.NativeContentAssetListProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.IAssetBundleResource" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="SalvageKings.Core">
+    <type fullname="SalvageKings.Core.Content.ArtPickDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.BuildingDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.BuyerDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.CarDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.ChainItemDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.ChapterDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.EventIndexDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.GeneratorDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.OrderTemplateDef" preserve="nothing" serialized="true" />
+    <type fullname="SalvageKings.Core.Content.SeasonDef" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
